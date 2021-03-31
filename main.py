@@ -43,7 +43,7 @@ class TelegramBot:
             return f'''Passe de elite - R$45,00{os.linesep}Confirmar pedido?(s/n)
             '''
         elif mensagem == '3':
-            return f'''Diabão - R$30,00{os.linesep}Confirmar pedido?(s/n)'''
+            return f'''pacote anjo - R$30,00{os.linesep}Confirmar pedido?(s/n)'''
 
         elif mensagem.lower() in ('s', 'sim'):
             return ''' Pedido Confirmado! '''
